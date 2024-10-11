@@ -9,6 +9,9 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @Slf4j
 public class MainController {
+	
+	//3.37.56.234
+	
 	@GetMapping("/aws/v1")
 	public String main(@RequestParam(defaultValue = "1") Integer number) {
 
